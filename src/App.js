@@ -50,14 +50,6 @@ class App extends React.Component {
         const { selectedVideo, videos, width } = this.state;
         const isMobile = width <= 500;
 
-        console.log(width);
-
-        if(isMobile){
-            console.log("Mobile",isMobile)
-        } else {
-            console.log("Desktop",isMobile)
-        }
-
         return (
             <Grid justify="center" container spacing ={10}>
                 <Grid item xs={12}>
